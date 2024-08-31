@@ -1,0 +1,69 @@
+npx creat-react-app <project-name> 
+npx : node package runner
+npm install create-react-app -g
+create-react-app<project-name>
+
+component types
+ stateless functional component (JS functions)
+  eg: function Welcome(props){
+    return <h1>Hello, {props.name}</h1>;
+  }
+  Stateful Class Component - class extending component class
+  Render method returning HTML
+    class Welcome extends React.Component {
+        render(){
+            <h1>Hello, {this.props.name}</h1>;
+        }
+    }
+
+Functional Component - Greet.js
+Class Component - ES6
+
+functional component
+ 1. simple function
+ 2. use function component mostly
+ 3. absence of this keyword
+ 4. solution without using stateless
+ 5. mainly responsible for UI
+ 6. stateless function/ dumb/ professional
+
+
+ Class component
+  1. more feature rich
+  2. make their own private data- state
+  3. complex UI logic
+  4. proivde life cylce hook
+  5. statefull/smart/ container
+
+
+  JSX - javascript xml - extension to the javascript language syntax
+  Write XML like code for extension and component
+  jsx tags have a tag name, attrbutes and children
+  jsx is not a necessity to write reach applications
+  jsx makes your react code simple and elegant
+  jsx transpiles to pure js which us understood by the browsers
+
+
+
+  difference between props and state
+   props get passed to the component
+   functional parameters
+   props are immutable
+   props - functional parameters
+   this.props - class component
+
+   state - state is managed within the component
+   variables declared in the function body
+   state can be managed
+   useState Hook - functional component
+   this.state - class component
+
+   rce is the snippet to create class component
+   rconst is the snippet to create constructor
+
+  npm create vite@latest my-app -- --template react
+
+
+
+
+ 
